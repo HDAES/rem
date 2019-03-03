@@ -1,0 +1,41 @@
+@function px2rem($px){
+    $rem: 37.5px;
+    @return ($px / $rem) + rem;
+}
+
+
+.header{  
+    height: px2rem(40px);
+    width: 100%;
+    background-color: red;   
+    .header-item{
+        float: left;
+        font-size: px2rem(16px);
+        color: #ffcdce;
+        margin-right: px2rem(20px);
+        line-height: px2rem(40px);
+        &:nth-child(1) {
+            margin-left: px2rem(23px);
+        }
+        &:nth-child(2) {
+            color: #fff;
+            font-size: px2rem(17px);
+        }
+    }   
+}
+.banner-content{
+    position: relative;
+    .banner{
+        display: block;
+        width: 100%;
+        height: px2rem(200px);
+    }
+    .banner-title{
+        position: absolute;
+        font-size: px2rem(18px);
+        font-weight: lighter;
+        color: #fff;
+        left: px2rem(15px);
+        bottom:px2rem(15px);
+    }
+}
