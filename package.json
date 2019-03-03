@@ -1,7 +1,7 @@
 {
   "name": "mobile-layout",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 使用`sass`编写px单位转rem的函数，使用webpack进行打包。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,14 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDAES/rem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HDAES/rem/issues"
+  },
+  "homepage": "https://github.com/HDAES/rem#readme"
 }
